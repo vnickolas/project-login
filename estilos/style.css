@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    /* border: none;
+    border-style: none; */
+}
+main {
+    border: 1px solid black;
+    width: 1200px;
+}
+fieldset {
+    border-radius: 15px;
+    width: 800px;
+    margin: auto;
+    align-items: right;
+}
+.login-user {
+    border-radius: 4px;
+    padding: 5px;
+    width: 230px;
+    background-color: grey;
+}
+.login-user input {
+    border-radius: 5px;
+    padding: 6px;
+    height: 20px;
+}
+.login-password {
+    border-radius: 4px;
+    padding: 5px;
+    width: 230px;
+    background-color: grey;
+}
+.login-password input {
+    border-radius: 5px;
+    padding: 6px;
+    height: 20px;
+}
+
+img {
+    width: 250px;
+    height: 40vh;
+    border-radius: 15px;
+}
