@@ -8,13 +8,21 @@
 }
 main {
     border: 1px solid black;
-    width: 1200px;
-}
-fieldset {
-    border-radius: 15px;
     width: 800px;
     margin: auto;
-    align-items: right;
+}
+img {
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+}
+fieldset {
+    width: 490px;
+    border-radius: 15px;
+    margin: auto;
+}
+.container {
+    display: inline-block;
 }
 .login-user {
     border-radius: 4px;
@@ -37,10 +45,4 @@ fieldset {
     border-radius: 5px;
     padding: 6px;
     height: 20px;
-}
-
-img {
-    width: 250px;
-    height: 40vh;
-    border-radius: 15px;
 }
