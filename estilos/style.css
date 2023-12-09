@@ -26,7 +26,7 @@ main {
     transform: translate(-50%, -50%);
     overflow: hidden; /*tudo oq tiver transbordar de dentro dessa section, esconde*/ 
 
-    background-color: rgb(216, 216, 216);
+    background-color: #f8aaaab2;
     border-radius: 20px;
     height: 500px;
     width: 250px;
@@ -40,27 +40,95 @@ main {
     background-position: center center;
 }
 .login-form {
+    display: block;
     padding: 10px;
+    
 }
+.login-form h1{
+    text-align: center;
+    font-size: 3em;
+}
+.login-form p{
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 4px;
+}
+
+
+
+
 .login-user {
+    color: black;
+    height: 35px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .login-user input {
+    border-radius: 10px;
+    width: 30vw;
+    height: 30px;
+    padding: 10px;
 }
 .login-user input:focus {
 }
 .login-password {
+    color: black;
+    height: 35px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .login-password input {
+    border-radius: 10px;
+    width: 30vw;
+    height: 30px;
+    padding: 10px;
 }
 .login-password input:focus {
 }
+
+
+
+
 .botao-enviar {
+    width: 100%; /*Para ele ocupar a largura total dentro da class do section, já que esse botao se encontra dentro do section*/
+    height: 40px;
+    margin-bottom: 4px;
+    font-size: 1.4em;
+
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    border: none;
+    border-radius: 8px;
 }
 .botao-enviar:hover {
+    cursor: pointer;
+    background-color: black;
+    transition: 0.6s;
 }
-.campo-esqueciasenha {
+.botao-esqueciasenha {
+    width: 100%; /*Para ele ocupar a largura total dentro da class do section, já que esse botao se encontra dentro do section*/
+    height: 40px;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    
+    background-color: rgba(0, 0, 0, 0.116);
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 5px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-.campo-esqueciasenha:hover {
+.botao-esqueciasenha:hover {
+    background-color: black;
+    transition: 0.6s;
+    color: white;
 }
 .botao-esqueciasenha {
 }
