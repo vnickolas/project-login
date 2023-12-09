@@ -8,43 +8,45 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 </head>
 <body>
-    <main class="container">
+    <main>
+        <section id="login">
 
-        <span>
-            <img src="imagens/wallpaperflare.com_wallpaper (3).jpg" alt="imglogin">
-        </span>
+            <div class="img">
+            </div>
 
-        <form action="#" method="post" autocomplete="on">
-            <fieldset>
-
-
+            <form action="#" method="post" autocomplete="on" class="login-form">
                 <h1>Login</h1>
+                <p>Bem vindo(a) novamente!</p>
                 <p>Faça o login abaixo</p>
 
-                <p class="login-user">
-                <label for="iuser"> <i class="material-symbols-outlined">key_vertical</i></label> 
-                <input type="text" name="user" id="iuser" required minlength="8" autocomplete="additional-name" placeholder="Nome / E-mail">
+                <label for="iuser">
+                    <p class="login-user">
+                    <i class="material-symbols-outlined">key_vertical</i>
+                        <input type="text" name="user" id="iuser" required minlength="8" autocomplete="additional-name" placeholder="Nome / E-mail">
                 </p>
+                </label>
 
-                <p class="login-password">
-                <label for="isenha"> <i class="material-symbols-outlined">person</i></label>
-                <input type="password" name="user" id="isenha" required minlength="8" autocomplete="current-password" placeholder="Senha">
-                </p>
+                <label for="isenha">
+                    <p class="login-password">
+                    <i class="material-symbols-outlined">person</i>
+                    <input type="password" name="user" id="isenha" required minlength="8" autocomplete="current-password" placeholder="Senha">
+                    </p>
+                </label>
 
                 <!--botões-->
 
                 <label for="ienviar">
-                    <p class="campo-enviar">
-                            <input type="submit" name="ienviar" value="Enviar" class="botao-enviar">
-                    </p>
+                        <input type="submit" name="ienviar" value="Enviar" class="botao-enviar">
                 </label>
 
                 <p class="campo-esqueciasenha">
-                        <a href="#" class="botao-esqueciasenha">Esqueci a senha <i class="material-symbols-outlined">open_in_new</i></a>
+                        <a href="#" class="botao-esqueciasenha">Esqueci a senha 
+                            <i class="material-symbols-outlined">open_in_new</i>
+                        </a>
                 </p>
-            </fieldset>
-        </form> 
-
+            </form> 
+        </section>
     </main>
+
 </body>
 </html>
